@@ -1,0 +1,18 @@
+Delivered-To: bilal@example.com
+Authentication-Results: mx.google.com; spf=pass dkim=pass dmarc=pass
+From: "Amazon" <ship-confirm@amazon.com>
+Reply-To: ship-confirm@amazon.com
+To: bilal@example.com
+Subject: Your order has shipped
+Date: Mon, 26 Oct 2026 09:00:00 -0700
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Bilal,
+
+Thanks for your order. It has shipped and will arrive on Tuesday.
+You can track it anytime by signing in to your account at
+https://www.amazon.com/orders
+
+Have a great day,
+Amazon

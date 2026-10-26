@@ -1,0 +1,9 @@
+scikit-learn
+pandas
+joblib
+
+[virustotal]
+requests
+
+[web]
+flask

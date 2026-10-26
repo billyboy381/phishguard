@@ -1,0 +1,3 @@
+[console_scripts]
+phishguard = phishguard.cli:main
+phishguard-web = phishguard.web.app:main

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishguard"
+version = "1.0.0"
+description = "PhishGuard - AI-assisted phishing email detector (header + link + content)"
+requires-python = ">=3.9"
+dependencies = ["scikit-learn", "pandas", "joblib"]
+
+[project.optional-dependencies]
+virustotal = ["requests"]
+web = ["flask"]
+
+[project.scripts]
+phishguard = "phishguard.cli:main"
+phishguard-web = "phishguard.web.app:main"
+
+[tool.setuptools.packages.find]
+include = ["phishguard*"]
+
+[tool.setuptools.package-data]
+"phishguard.content" = ["*.csv", "*.pkl"]
